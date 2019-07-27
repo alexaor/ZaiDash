@@ -155,11 +155,12 @@ app.layout = html.Div([
     )
 ], style={
     'display': 'grid',
-    'grid-template-columns': '20% 20%',
+    'grid-template-columns': 'minmax(700px, 20%) minmax(700px, 20%)',
     'grid-template-rows': '1fr 1fr 1fr',
     'box-sizing': 'border-box',
     'width': '100%',
     'justify-content': 'center'
+
 
 }
 )
